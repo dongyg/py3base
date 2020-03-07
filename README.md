@@ -1,0 +1,12 @@
+
+- Include default-libmysqlclient-dev to support connecting MySQL
+- Include fcgiwrap and flup to support FastCGI
+- Python packages
+	- flup==1.0.3
+	- wxpy==0.3.9.8
+	- requests
+	- emoji
+	- pyyaml
+	- redis
+	- mysqlclient
+	- pymongo
