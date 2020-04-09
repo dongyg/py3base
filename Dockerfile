@@ -10,7 +10,7 @@ RUN \
 	apt-get -q -y update && \
 	apt-get install -q -y --no-install-recommends gcc python3-dev default-libmysqlclient-dev; \
 	\
-	pip install --no-cache-dir flup==1.0.3 wxpy==0.3.9.8 requests emoji pyyaml redis mysqlclient pymongo; \
+	pip install --no-cache-dir flup==1.0.3 wxpy==0.3.9.8 web.py==0.51 requests emoji pyyaml redis mysqlclient pymongo; \
 	\
 	apt-mark auto '.*' > /dev/null; \
 	[ -z "$savedAptMark" ] || apt-mark manual $savedAptMark; \
