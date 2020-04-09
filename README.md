@@ -4,6 +4,7 @@
 - Python packages
 	- flup==1.0.3
 	- wxpy==0.3.9.8
+	- webpy==0.51
 	- requests
 	- emoji
 	- pyyaml
