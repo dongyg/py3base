@@ -1,4 +1,4 @@
-FROM python:3.7-slim-stretch
+FROM python:3.8-slim-buster
 
 # Install python-dev default-libmysqlclient-dev in order to install mysqlclient(MySQLdb for py3)
 RUN \
